@@ -136,6 +136,19 @@
   "ScreenOrder": [
     "BrowseScreen",
     "DetailScreen",
-    "EditScreen"
+    "EditScreen",
+    "Screen1",
+    "Screen2",
+    "Screen3",
+    "Loginpage",
+    "LoginpageG",
+    "LoginpageM",
+    "SuccessScreen",
+    "ForgotPassword",
+    "PasswordSuccessScreen",
+    "Singup",
+    "Admin",
+    "Student",
+    "Homepage"
   ]
 }
