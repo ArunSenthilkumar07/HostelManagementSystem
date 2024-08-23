@@ -1,0 +1,128 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crf86_newtables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crf86_newtable",
+    "MaxGetRowsCount": 500,
+    "Name": "Student Details",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "crf86_feespay": "FEES PAY",
+      "crf86_feespay_base": "FEES PAY (Base)",
+      "crf86_joiningdate": "JOINING DATE",
+      "crf86_name": "NAME",
+      "crf86_newtable_Annotations": "Notes",
+      "crf86_newtable_AsyncOperations": "System Jobs",
+      "crf86_newtable_BulkDeleteFailures": "Bulk Delete Failures",
+      "crf86_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crf86_newtable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crf86_newtable_ProcessSession": "Process Sessions",
+      "crf86_newtable_SyncErrors": "Sync Errors",
+      "crf86_newtableid": "New table",
+      "crf86_phoneno": "PHONE NO",
+      "crf86_roomeallocation": "ROOME ALLOCATION",
+      "crf86_sinno": "SIN NO",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Student Details",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Student Details (Views)",
+    "Name": "_crf86_newtable_views",
+    "RelatedEntityName": "Student Details",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "14083936-83bf-4ce7-a976-94a98c65a50e": "New table Lookup View",
+      "7f50c7ea-356c-4579-bc17-7375258a185b": "Active New tables",
+      "a118efdc-7230-45d5-9ccf-06abf43aa251": "New table Advanced Find View",
+      "b083f84b-bc39-4933-a68d-d5f686a9f1eb": "New table Associated View",
+      "db28af2f-23e4-4f28-ab27-7d0a4539b862": "Inactive New tables"
+    }
+  },
+  {
+    "DisplayName": "ROOME ALLOCATION (Student Details)",
+    "Name": "crf86_newtable_crf86_roomeallocation",
+    "OptionSetInfoNameMapping": {
+      "972840000": "G1",
+      "972840001": "G2",
+      "972840002": "G3",
+      "972840003": "G4",
+      "972840004": "G5"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crf86_roomeallocation",
+        "OptionSetReferenceEntityName": "Student Details"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crf86_roomeallocation",
+    "RelatedEntityName": "Student Details",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Student Details)",
+    "Name": "crf86_newtable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Student Details"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Student Details",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Student Details)",
+    "Name": "crf86_newtable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Student Details"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Student Details",
+    "Type": "OptionSetInfo"
+  }
+]
