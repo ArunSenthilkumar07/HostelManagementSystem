@@ -10,6 +10,7 @@ Admin As screen:
 
     Button5_1 As button:
         Height: =106
+        OnSelect: =Navigate(DetailScreen)
         Size: =24
         Text: ="Students Info"
         Width: =336
@@ -19,6 +20,7 @@ Admin As screen:
 
     Button6_1 As button:
         Height: =106
+        OnSelect: =Navigate(BrowseScreen)
         Size: =24
         Text: ="Room Available"
         Width: =336
