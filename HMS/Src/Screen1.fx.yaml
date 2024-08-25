@@ -1,2 +1,35 @@
 Screen1 As screen:
 
+    Video1 As videoPlayback:
+        AutoStart: =true
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =746
+        Loop: =true
+        Media: =Front
+        ShowControls: =false
+        Width: =639
+        Y: =152
+        ZIndex: =1
+
+    Timer1 As timer:
+        AutoPause: =false
+        AutoStart: =true
+        Duration: =3000
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =51
+        OnTimerEnd: =Navigate(Screen2,ScreenTransition.Fade)
+        Visible: =false
+        Width: =235
+        X: =40
+        Y: =40
+        ZIndex: =2
+
+    Rectangle1_1 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =1136
+        Visible: =false
+        Width: =639
+        X: =1
+        ZIndex: =3
+
