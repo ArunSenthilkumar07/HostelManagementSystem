@@ -1,2 +1,157 @@
 Loginpage As screen:
 
+    Image7 As image:
+        Height: =190
+        Image: ='WhatsApp Image 2024-08-02 at 11.14.23 AM_1'
+        Width: =640
+        ZIndex: =1
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 191, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =40
+        Text: =" LOGIN "
+        Width: =560
+        X: =40
+        Y: =222
+        ZIndex: =2
+
+    Label2_2 As label:
+        Color: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =35
+        Text: ="Email Id"
+        Width: =577
+        Y: =346
+        ZIndex: =3
+
+    txtEmailId As text:
+        Default: =
+        Height: =90
+        HintText: ="Enter Mail Id"
+        Size: =21
+        Width: =590
+        X: =25
+        Y: =467
+        ZIndex: =4
+
+    Label2_3 As label:
+        Color: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =35
+        Text: ="Password"
+        Width: =560
+        X: =8
+        Y: =576
+        ZIndex: =5
+
+    txtPassword As text:
+        Default: =
+        Height: =93
+        HintText: ="Enter Password"
+        Mode: =TextMode.Password
+        Size: =21
+        Width: =590
+        X: =25
+        Y: =676
+        ZIndex: =6
+
+    Icon1 As icon.Hide:
+        Icon: =Icon.Hide
+        OnSelect: =
+        X: =536
+        Y: =690
+        ZIndex: =7
+
+    Button3 As button:
+        Height: =70
+        OnSelect: |-
+            =If(
+                IsMatch(txtEmailId.Text, "^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"),
+                // If the email format is valid
+                Navigate(SuccessScreen, ScreenTransition.Fade, { Message: "Your verification was successful" }),
+                // If the email format is invalid
+                Notify("Invalid email format. Please try again.", NotificationType.Error)
+            )
+        Size: =24
+        Text: ="LOGIN"
+        Width: =280
+        X: =166
+        Y: =899
+        ZIndex: =8
+
+    Button2 As button:
+        Height: =70
+        OnSelect: =Navigate(Singup)
+        Size: =24
+        Text: ="SING UP"
+        Width: =280
+        X: =166
+        Y: =1051
+        ZIndex: =9
+
+    Label4 As label:
+        Color: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =35
+        Text: ="               OR"
+        Width: =560
+        X: =80
+        Y: =981
+        ZIndex: =10
+
+    Label6 As label:
+        Align: =Align.Right
+        Color: =RGBA(39, 113, 194, 1)
+        Height: =70
+        OnSelect: =Navigate(ForgotPassword,ScreenTransition.Fade)
+        Size: =21
+        Text: ="Forgot Password?"
+        Underline: =true
+        Width: =560
+        X: =40
+        Y: =786
+        ZIndex: =11
+
+    Image8 As image:
+        Height: =102
+        Image: ='7123953_logo_google_g_icon_1'
+        Width: =79
+        X: =52
+        Y: =775
+        ZIndex: =12
+
+    Image9 As image:
+        Height: =85
+        Image: ='download (3)_1'
+        Width: =83
+        X: =153
+        Y: =783
+        ZIndex: =13
+
+    Label9 As label:
+        Height: =102
+        OnSelect: =Navigate(LoginpageG)
+        Size: =21
+        Text: =""
+        Width: =79
+        X: =52
+        Y: =770
+        ZIndex: =14
+
+    Label9_1 As label:
+        Height: =102
+        OnSelect: =Navigate(LoginpageM)
+        Size: =21
+        Text: =""
+        Width: =79
+        X: =153
+        Y: =783
+        ZIndex: =15
+
