@@ -1,2 +1,55 @@
 Admin As screen:
 
+    Icon12_2 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Homepage)
+        Width: =72
+        X: =14
+        Y: =12
+        ZIndex: =1
+
+    Button5_1 As button:
+        Height: =106
+        Size: =24
+        Text: ="Students Info"
+        Width: =336
+        X: =140
+        Y: =150
+        ZIndex: =2
+
+    Button6_1 As button:
+        Height: =106
+        Size: =24
+        Text: ="Room Available"
+        Width: =336
+        X: =140
+        Y: =330
+        ZIndex: =3
+
+    Button7_1 As button:
+        Height: =106
+        Size: =24
+        Text: ="Visiter Pass"
+        Width: =336
+        X: =140
+        Y: =510
+        ZIndex: =4
+
+    Button11_1 As button:
+        Height: =106
+        Size: =24
+        Text: ="Attendance"
+        Width: =336
+        X: =140
+        Y: =702
+        ZIndex: =5
+
+    Button12_1 As button:
+        Height: =106
+        Size: =24
+        Text: ="Inventory"
+        Width: =336
+        X: =140
+        Y: =900
+        ZIndex: =6
+

@@ -1,2 +1,46 @@
 Student As screen:
 
+    Icon15 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(Homepage)
+        X: =20
+        Y: =24
+        ZIndex: =1
+
+    Button5 As button:
+        Height: =106
+        OnSelect: =Navigate(EditScreen)
+        Size: =24
+        Text: ="Students Register"
+        Width: =336
+        X: =140
+        Y: =150
+        ZIndex: =2
+
+    Button7 As button:
+        Height: =106
+        Size: =24
+        Text: ="complaints and suggestions"
+        Width: =336
+        X: =140
+        Y: =330
+        ZIndex: =3
+
+    Button11 As button:
+        Height: =106
+        Size: =24
+        Text: ="Out Pass & Leave Request"
+        Width: =336
+        X: =140
+        Y: =510
+        ZIndex: =4
+
+    Button12 As button:
+        Height: =106
+        Size: =24
+        Text: ="Fees Pay"
+        Width: =336
+        X: =140
+        Y: =702
+        ZIndex: =5
+

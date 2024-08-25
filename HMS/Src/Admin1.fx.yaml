@@ -1,2 +1,48 @@
 Admin1 As screen:
 
+    Label12 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =40
+        Text: ="ADMIN"
+        Width: =560
+        X: =26
+        Y: =213
+        ZIndex: =1
+
+    Icon9 As icon.Lock:
+        Height: =110
+        Icon: =Icon.Lock
+        Width: =97
+        X: =257
+        Y: =370
+        ZIndex: =2
+
+    TextInput5 As text:
+        Default: =
+        Height: =87
+        Mode: =TextMode.Password
+        Size: =21
+        Width: =520
+        X: =96
+        Y: =575
+        ZIndex: =3
+
+    Icon12_3 As icon.Key:
+        Height: =104
+        Icon: =Icon.Key
+        Width: =77
+        Y: =575
+        ZIndex: =4
+
+    Button10 As button:
+        Height: =70
+        OnSelect: =Navigate(Admin)
+        Size: =24
+        Text: ="SUBMIT"
+        Width: =280
+        X: =182
+        Y: =790
+        ZIndex: =5
+
